@@ -41,31 +41,31 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/DevDynamics_sarveshPatil/",
       element: <Layout />,
       children: [
         {
-          path: "/",
+          path: "/DevDynamics_sarveshPatil/",
           element: <Home />,
         },
         {
-          path: "/users",
+          path: "/DevDynamics_sarveshPatil/users",
           element: <Users />,
         },
         {
-          path: "/products",
+          path: "/DevDynamics_sarveshPatil/products",
           element: <Products />,
         },
         {
-          path: "/users/:id",
+          path: "/DevDynamics_sarveshPatil/users/:id",
           element: <User />,
         },
         {
-          path: "/products/:id",
+          path: "/DevDynamics_sarveshPatil/products/:id",
           element: <Product />,
         },
         {
-          path: "/chart",
+          path: "/DevDynamics_sarveshPatil/chart",
           element: <Chart />,
         },
         
