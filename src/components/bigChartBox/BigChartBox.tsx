@@ -11,52 +11,52 @@ import "./bigChartBox.scss";
 const data = [
   {
     name: "Sun",
-    books: 4000,
-    clothes: 2400,
-    electronic: 2400,
+    commit: 24,
+    incidentsResolved: 12,
+    PRMerged: 8,
   },
   {
     name: "Mon",
-    books: 3000,
-    clothes: 1398,
-    electronic: 2210,
+    commit: 15,
+    incidentsResolved: 10,
+    PRMerged: 2,
   },
   {
     name: "Tue",
-    books: 2000,
-    clothes: 9800,
-    electronic: 2290,
+    commit: 18,
+    incidentsResolved: 18,
+    PRMerged: 3,
   },
   {
     name: "Wed",
-    books: 2780,
-    clothes: 3908,
-    electronic: 2000,
+    commit: 15,
+    incidentsResolved: 15,
+    PRMerged: 8,
   },
   {
     name: "Thu",
-    books: 1890,
-    clothes: 4800,
-    electronic: 2181,
+    commit: 10,
+    incidentsResolved: 5,
+    PRMerged: 2,
   },
   {
     name: "Fri",
-    books: 2390,
-    clothes: 3800,
-    electronic: 2500,
+    commit: 25,
+    incidentsResolved: 20,
+    PRMerged: 9,
   },
   {
     name: "Sat",
-    books: 3490,
-    clothes: 4300,
-    electronic: 2100,
+    commit: 14,
+    incidentsResolved: 5,
+    PRMerged: 2,
   },
 ];
 
 const BigChartBox = () => {
   return (
     <div className="bigChartBox">
-      <h1>Revenue Analytics</h1>
+      <h1>work Analytics</h1>
       <div className="chart">
         <ResponsiveContainer width="99%" height="100%">
           <AreaChart
@@ -73,21 +73,21 @@ const BigChartBox = () => {
             <Tooltip />
             <Area
               type="monotone"
-              dataKey="electronic"
+              dataKey="commit"
               stackId="1"
               stroke="#8884d8"
               fill="#8884d8"
             />
             <Area
               type="monotone"
-              dataKey="clothes"
+              dataKey="incidentsResolved"
               stackId="1"
               stroke="#82ca9d"
               fill="#82ca9d"
             />
             <Area
               type="monotone"
-              dataKey="books"
+              dataKey="PRMerged"
               stackId="1"
               stroke="#ffc658"
               fill="#ffc658"
