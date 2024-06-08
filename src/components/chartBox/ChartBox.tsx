@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import "./chartBox.scss";
 import { Line, LineChart, ResponsiveContainer, Tooltip } from "recharts";
 
@@ -8,7 +8,6 @@ type Props = {
   title: string;
   dataKey: string;
   number: number | string;
-  percentage: number;
   chartData: object[];
 };
 
@@ -45,9 +44,8 @@ const ChartBox = (props: Props) => {
         <div className="texts">
           <span
             className="percentage"
-            style={{ color: props.percentage < 0 ? "tomato" : "limegreen" }}
           >
-           
+           :)
           </span>
           
         </div>
