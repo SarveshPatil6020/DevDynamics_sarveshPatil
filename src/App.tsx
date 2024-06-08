@@ -65,14 +65,14 @@ function App() {
           element: <Product />,
         },
         {
-          path: "/DevDynamics_sarveshPatil/chart",
+          path: "/DevDynamics_sarveshPatil/chart/",
           element: <Chart />,
         },
         
       ],
     },
     {
-      path: "/login",
+      path: "/DevDynamics_sarveshPatil/login",
       element: <Login />,
     },
   ]);

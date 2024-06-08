@@ -41,7 +41,7 @@ const DataTable = (props: Props) => {
     renderCell: (params) => {
       return (
         <div className="action">
-          <Link to={`/${props.slug}/${params.row.id}`}>
+          <Link to={`/DevDynamics_sarveshPatil/${props.slug}/${params.row.id}`}>
             <img src="/view.svg" alt="" />
           </Link>
           
